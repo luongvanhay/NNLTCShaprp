@@ -1,0 +1,15 @@
+D:\c#\laptrinhC-_Pham-Tien-Dat\Bai6_TinhMu\obj\Debug\net10.0\Bai6_TinhMu.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#\laptrinhC-_Pham-Tien-Dat\Bai6_TinhMu\obj\Debug\net10.0\Bai6_TinhMu.AssemblyInfoInputs.cache
+D:\c#\laptrinhC-_Pham-Tien-Dat\Bai6_TinhMu\obj\Debug\net10.0\Bai6_TinhMu.AssemblyInfo.cs
+D:\c#\laptrinhC-_Pham-Tien-Dat\Bai6_TinhMu\obj\Debug\net10.0\Bai6_TinhMu.csproj.CoreCompileInputs.cache
+D:\c#\laptrinhC-_Pham-Tien-Dat\Bai6_TinhMu\obj\Debug\net10.0\Bai6_TinhMu.sourcelink.json
+D:\c#\laptrinhC-_Pham-Tien-Dat\Bai6_TinhMu\bin\Debug\net10.0\Bai6_TinhMu.exe
+D:\c#\laptrinhC-_Pham-Tien-Dat\Bai6_TinhMu\bin\Debug\net10.0\Bai6_TinhMu.deps.json
+D:\c#\laptrinhC-_Pham-Tien-Dat\Bai6_TinhMu\bin\Debug\net10.0\Bai6_TinhMu.runtimeconfig.json
+D:\c#\laptrinhC-_Pham-Tien-Dat\Bai6_TinhMu\bin\Debug\net10.0\Bai6_TinhMu.dll
+D:\c#\laptrinhC-_Pham-Tien-Dat\Bai6_TinhMu\bin\Debug\net10.0\Bai6_TinhMu.pdb
+D:\c#\laptrinhC-_Pham-Tien-Dat\Bai6_TinhMu\obj\Debug\net10.0\Bai6_TinhMu.dll
+D:\c#\laptrinhC-_Pham-Tien-Dat\Bai6_TinhMu\obj\Debug\net10.0\refint\Bai6_TinhMu.dll
+D:\c#\laptrinhC-_Pham-Tien-Dat\Bai6_TinhMu\obj\Debug\net10.0\Bai6_TinhMu.pdb
+D:\c#\laptrinhC-_Pham-Tien-Dat\Bai6_TinhMu\obj\Debug\net10.0\Bai6_TinhMu.genruntimeconfig.cache
+D:\c#\laptrinhC-_Pham-Tien-Dat\Bai6_TinhMu\obj\Debug\net10.0\ref\Bai6_TinhMu.dll
