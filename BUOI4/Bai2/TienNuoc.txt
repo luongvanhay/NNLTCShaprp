@@ -1,0 +1,48 @@
+using System;
+
+namespace NMLT.Buoi04
+{
+    public class TienNuoc
+    {
+        // Hằng số của chương trình
+        const int GIA4 = 4400, GIA6 = 8300, GIA_TREN_6 = 10500;
+        const double VAT = 0.05, PHI_MOI_TRUONG = 0.1;
+
+        public static void Main(string[] args)
+        {
+            // Khai báo biến
+            int chiSoCu, chiSoMoi, soNguoi, m3;
+            double soTien;
+
+            // Nhập dữ liệu
+            Console.Write("Moi ban nhap chi so tieu thu nuoc thang truoc (m^3): ");
+            chiSoCu = int.Parse(Console.ReadLine());
+
+            Console.Write("Moi ban nhap chi so tieu thu nuoc trong thang (m^3): ");
+            chiSoMoi = int.Parse(Console.ReadLine());
+
+            Console.Write("Moi ban nhap so nguoi tieu thu: ");
+            soNguoi = int.Parse(Console.ReadLine());
+
+            // Tính số m3 nước tiêu thụ
+            m3 = chiSoMoi - chiSoCu;
+
+            // Tính tiền nước theo định mức mỗi người
+            if (m3 <= 4 * soNguoi)
+                soTien = m3 * GIA4;
+            else if (m3 <= 6 * soNguoi)
+                soTien = 4 * soNguoi * GIA4
+                       + (m3 - 4 * soNguoi) * GIA6;
+            else
+                soTien = 4 * soNguoi * GIA4
+                       + 2 * soNguoi * GIA6
+                       + (m3 - 6 * soNguoi) * GIA_TREN_6;
+
+            // Tính VAT và phí bảo vệ môi trường
+            soTien = soTien * (1 + VAT + PHI_MOI_TRUONG);
+
+            // Xuất kết quả
+            Console.WriteLine("So tien phai tra cho {0} m3 tieu thu trong thang la {1:#,#} Đ.", m3, soTien);
+        }
+    }
+}

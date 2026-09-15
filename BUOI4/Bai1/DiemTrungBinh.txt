@@ -1,0 +1,40 @@
+﻿using System;
+
+namespace NMLT.Buoi04
+{
+    public class DiemTrungBinhh
+    {
+        // Hằng số của chương trình
+        const double GIOI = 8, KHA = 6.5, TRUNG_BINH = 5;
+
+        public static void Main(string[] args)
+        {
+            // Khai báo biến
+            double toan, ly, hoa, dtb;
+            string xepLoai;
+
+            // Nhập dữ liệu
+            Console.Write("Moi ban nhap diem toan, ly, hoa: ");
+            string[] diem = Console.ReadLine().Split();
+            toan = double.Parse(diem[0]);
+            ly = double.Parse(diem[1]);
+            hoa = double.Parse(diem[2]);
+
+            // Tính điểm trung bình
+            dtb = (toan * 2 + ly * 3 + hoa) / 6;
+
+            // Xếp loại
+            if (dtb >= GIOI)
+                xepLoai = "Gioi";
+            else if (dtb >= KHA)
+                xepLoai = "Kha";
+            else if (dtb >= TRUNG_BINH)
+                xepLoai = "Trung binh";
+            else
+                xepLoai = "Yeu";
+
+            // Xuất kết quả
+            Console.WriteLine("Ban co diem trung binh {0:F2} duoc xep loai {1}.", dtb, xepLoai);
+        }
+    }
+}
