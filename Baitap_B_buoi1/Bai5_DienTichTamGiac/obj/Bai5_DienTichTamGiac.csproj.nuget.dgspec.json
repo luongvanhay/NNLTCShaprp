@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "d:\\c#\\laptrinhC-_Pham-Tien-Dat\\Bai5_DienTichTamGiac\\Bai5_DienTichTamGiac.csproj": {}
+    "/Users/phuocduong/Documents/NNLT C#/NNLTCShaprp/Baitap_B_buoi1/Bai5_DienTichTamGiac/Bai5_DienTichTamGiac.csproj": {}
   },
   "projects": {
-    "d:\\c#\\laptrinhC-_Pham-Tien-Dat\\Bai5_DienTichTamGiac\\Bai5_DienTichTamGiac.csproj": {
+    "/Users/phuocduong/Documents/NNLT C#/NNLTCShaprp/Baitap_B_buoi1/Bai5_DienTichTamGiac/Bai5_DienTichTamGiac.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\c#\\laptrinhC-_Pham-Tien-Dat\\Bai5_DienTichTamGiac\\Bai5_DienTichTamGiac.csproj",
+        "projectUniqueName": "/Users/phuocduong/Documents/NNLT C#/NNLTCShaprp/Baitap_B_buoi1/Bai5_DienTichTamGiac/Bai5_DienTichTamGiac.csproj",
         "projectName": "Bai5_DienTichTamGiac",
-        "projectPath": "d:\\c#\\laptrinhC-_Pham-Tien-Dat\\Bai5_DienTichTamGiac\\Bai5_DienTichTamGiac.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "d:\\c#\\laptrinhC-_Pham-Tien-Dat\\Bai5_DienTichTamGiac\\obj\\",
+        "projectPath": "/Users/phuocduong/Documents/NNLT C#/NNLTCShaprp/Baitap_B_buoi1/Bai5_DienTichTamGiac/Bai5_DienTichTamGiac.csproj",
+        "packagesPath": "/Users/phuocduong/.nuget/packages/",
+        "outputPath": "/Users/phuocduong/Documents/NNLT C#/NNLTCShaprp/Baitap_B_buoi1/Bai5_DienTichTamGiac/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/phuocduong/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -63,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.400/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
