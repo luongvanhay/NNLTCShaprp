@@ -1,0 +1,29 @@
+using System;
+
+namespace NMLT.Buoi05
+{
+    class TimBeNhatThoa
+    {
+        public static void Main(string[] args)
+        {
+            // Khai báo biến
+            double a, s = 0;
+            int n = 0;
+
+            // Nhập dữ liệu
+            Console.Write("Moi ban nhap so a: ");
+            a = double.Parse(Console.ReadLine());
+
+            // Tìm n bé nhất
+            while (s <= a)
+            {
+                n++;
+                s = s + 1.0 / n;
+            }
+
+            // Xuất kết quả
+            Console.WriteLine("So nguyen duong n be nhat thoa la: {0}", n);
+            Console.WriteLine("Tong S = {0:F4} > {1}", s, a);
+        }
+    }
+}

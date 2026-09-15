@@ -1,0 +1,32 @@
+﻿using System;
+
+namespace NMLT.Buoi05
+{
+    class TongPhanSoSaiSo
+    {
+        public static void Main(string[] args)
+        {
+            // Khai báo biến
+            double a, epsilon, s = 0;
+            int n = 0;
+
+            // Nhập dữ liệu
+            Console.Write("Moi ban nhap so a: ");
+            a = double.Parse(Console.ReadLine());
+
+            Console.Write("Moi ban nhap sai so epsilon (<=0.1): ");
+            epsilon = double.Parse(Console.ReadLine());
+
+            // Tính tổng
+            for (n = 0; 1.0 / (a + n) >= epsilon; n++)
+            {
+                s = s + 1.0 / (a + n);
+            }
+
+            // Xuất kết quả
+            Console.WriteLine(
+                "Gia tri cua bieu thuc S(a = {0}, epsilon = {1}) = {2:F4}.",
+                a, epsilon, s);
+        }
+    }
+}
